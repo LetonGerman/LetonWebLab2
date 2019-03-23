@@ -1,15 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 
     <link crossorigin="anonymous" href="./css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
 
-    <title>Title</title>
+    <title>Games of Vinyl</title>
 </head>
 <body>
+<header class="container-fluid">
+    <div class="row navbar-dark bg-light">
+        <h1 class="col-sm-1 col-md-2 col-lg-2 col-xl-2">
 
+        </h1>
+        <h2 class="col-sm-8 col-md-6 col-lg-6 col-xl-6">
+            Games of Vinyl
+        </h2>
+        <nav class="nav nav-pills flex-sm-row flex-md-row flex-lg-row flex-xl-row">
+            <a class="nav-link flex-sm-fill text-sm-center" href="#about">About</a>
+            <a class="nav-link flex-sm-fill text-sm-center" href="#catalog">Catalog</a>
+            <a class="nav-link flex-sm-fill text-sm-center" href="#celeste-order">Record Info</a>
+        </nav>
+    </div>
+</header>
+
+<section class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <a class="btn-link" id="call-to-action" href="#catalog">
+                <h3>New Vinyl Releases</h3>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid text-dark bg-light">
+    <div class="row bg-light d-flex justify-content-center">
+        <h1 id="about">About</h1>
+    </div>
+    <div class="text-sm-left text-md-left text-lg-left text-xl-left">
+        <p>Games of Vinyl has seen a lot over the last 70 years. From pressing the first Beatles 7” to
+            outgrowing three facilities, United hasn’t lost what has kept it alive and thriving: our passion for also
+            keeping music alive on vinyl records.</p>
+        <p>Founded in 1949 in Nashville, TN, the company was known for pressing one million records per month and for
+            its astounding and unique history. United also boasts a storied collection of pressing a variety of
+            influential musical titles.</p>
+        <p>Yes, it’s an exciting time for vinyl due to its recent revival, but we’re proud to say we haven’t gone
+            anywhere. It is our steadfast belief in the vinyl format that has now made us the largest manufacturer of
+            vinyl records in North America, and we are grateful to be a trusted partner to both major and independent
+            labels and artists around the world.</p>
+    </div>
+</section>
+
+<hr>
+
+<section class="container-fluid bg-light">
+    <div class="row bg-light d-flex justify-content-center">
+        <h1 id="catalog">Catalog</h1>
+    </div>
+    <div class="row bg-light">
+        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center">
+            <a href="#celeste-order"><img src="images/vinyl1.png"></a>
+            <h4>Celeste OST</h4>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center">
+            <a href="#thimbleweed-order"><img src="images/vinyl2.png"></a>
+            <h4>Thimbleweed Park OST</h4>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center">
+            <a href="#shantae-order"><img src="images/vinyl3.png"></a>
+            <h4>Shantae OST</h4>
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<section class="container-fluid text-dark bg-light">
+    <div class="text-sm-left text-md-left text-lg-left text-xl-left">
+        <h2 id="celeste-order">Celeste OST</h2>
+        <p>Music for the climb. </p>
+        <p>This Celeste double album from Ship to Shore Phono Co. features 19 tracks from Lena Raine's award-winning
+            soundtrack across two vinyl records, available on Games of Vinyl in a new, exclusive Aurora and Strawberry
+            colorway.</p>
+        <button class="btn btn-outline-dark" type="button">Order Now</button>
+        <br><br>
+        <h2 id="thimbleweed-order">Thimbleweed Park OST</h2>
+        <p>It may have been passé in 1987, but vinyl is back!</p>
+        <p>Listen to Steve Kirk's atmospheric Thimbleweed Park soundtrack on the most atmospheric of all physical
+            media.</p>
+        <p>Play the translucent blue vinyl on your RecordTron 3000™ at home, or use the included download code to listen
+            wherever you want.</p>
+        <button class="btn btn-outline-dark" type="button">Order Now</button>
+        <br><br>
+        <h2 id="shantae-order">Shantae OST</h2>
+        <p>Hear the original without popping in a new set of AA batteries.</p>
+        <p>This official soundtrack, remastered specifically for vinyl, includes 41 tracks from Jake Kaufman's classic
+            soundtrack on one vibrant red LP. The gatefold packaging features original art by Nina Matsumoto. </p>
+        <p>Buy the vinyl and you'll also get an instant digital download of the complete soundtrack in MP3 320kbps, WAV,
+            or FLAC.</p>
+        <button class="btn btn-outline-dark" type="button">Order Now</button>
+        <br><br>
+    </div>
+</section>
+
+<section class="container-fluid" id="contact">
+    <div class="container">
+    <div class="row d-flex justify-content-center">
+        <h1>Contact Us</h1>
+    </div>
+    <div class="row d-flex justify-content-center">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Email</span>
+            </div>
+            <input type="text" class="form-control" placeholder="gleton@example.com" aria-label="Email">
+        </div>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Message</span>
+            </div>
+            <textarea class="form-control" aria-label="Message">Your thoughts go here...</textarea>
+        </div>
+        <button class="btn btn-lg btn-outline-dark" type="button">Send</button>
+    </div>
+    </div>
+</section>
+
+<footer class="blockquote-footer mt-auto py-sm-3 py-md-3 py-lg-3 py-xl-3" id="footer-to-top">
+    <div class="container-fluid d-flex justify-content-center">
+        <a href="#" id="link-to-top"><h3 class="text-secondary">GO TO TOP</h3></a>
+    </div>
+</footer>
 </body>
 </html>
