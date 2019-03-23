@@ -4,6 +4,15 @@ body {
     font-weight: 300;
 }
 
+header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header div h2 {
+    font-size: 28px;
+}
+
 .jumbotron-fluid {
     background-image: url("./../images/landing.jpg");
     background-size: cover;
@@ -69,4 +78,9 @@ body {
 
 .btn-lg {
     margin-top: 20px;
+}
+
+col-sm-12 ,
+col-md-12 {
+    vertical-align: center!important;
 }
