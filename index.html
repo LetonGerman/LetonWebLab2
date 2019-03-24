@@ -110,21 +110,23 @@
     <div class="row d-flex justify-content-center">
         <h1>Contact Us</h1>
     </div>
-    <div class="row d-flex justify-content-center">
-        <div class="input-group mb-3">
-            <div class="input-group-prepend">
-                <span class="input-group-text">Email</span>
+    <form action="" method="GET">
+        <div class="row d-flex justify-content-center">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Email</span>
+                </div>
+                <input type="email" class="form-control" name="email" placeholder="gleton@example.com" aria-label="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
             </div>
-            <input type="text" class="form-control" placeholder="gleton@example.com" aria-label="Email">
-        </div>
-        <div class="input-group">
-            <div class="input-group-prepend">
-                <span class="input-group-text">Message</span>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Message</span>
+                </div>
+                <textarea class="form-control" name="message" aria-label="Message" placeholder="Your thoughts go here..." required></textarea>
             </div>
-            <textarea class="form-control" aria-label="Message">Your thoughts go here...</textarea>
+            <button class="btn btn-lg btn-outline-dark" type="submit">Send</button>
         </div>
-        <button class="btn btn-lg btn-outline-dark" type="button">Send</button>
-    </div>
+    </form>
     </div>
 </section>
 
