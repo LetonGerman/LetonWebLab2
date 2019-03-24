@@ -10,6 +10,8 @@ header {
 }
 
 header div h2 {
+    horiz-align: center;
+    padding-top: 4px;
     font-size: 26px;
 }
 
